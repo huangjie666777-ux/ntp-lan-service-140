@@ -1,0 +1,13 @@
+{
+  "upstreams": [
+    {"name": "up1", "address": "127.0.0.1:11231"},
+    {"name": "up2", "address": "127.0.0.1:11232"},
+    {"name": "up3", "address": "127.0.0.1:11233"}
+  ],
+  "udp_listen": "127.0.0.1:10123",
+  "http_listen": "127.0.0.1:8080",
+  "poll_interval": "2s",
+  "poll_timeout": "1s",
+  "sample_max_age": "30s",
+  "agree_threshold": "500ms"
+}
